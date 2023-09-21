@@ -1,4 +1,14 @@
-
+ .body {
+    padding: 0;
+    margin: 0;
+    background-image: url(Backround.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    }
+  
 *{
     margin: 0px;
     padding: 0px;
@@ -17,15 +27,18 @@
 .flex-r{
     flex-direction: row;
     width: 300px;
-    
+
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
     padding: 20px 10px;
-    background-color: black;  
-    background-image: ;
+    background-image: url(uns.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 
