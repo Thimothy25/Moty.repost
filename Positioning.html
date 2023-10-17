@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header</title>
+    <style>
+        body {
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            border: 2px solid white;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color:black;
+			
+        }
+
+        .left-box {
+            flex:0.9; 
+            margin-right: 200px;
+            size: 250px;
+        }
+
+        .left-box img {
+            width: 100%;
+			size:100px;
+            opacity:;
+        }
+
+        .info {
+            flex: 0.9; 
+            padding: 100px;
+        }
+
+        img {
+            max-width: 100%;
+			size:100px;
+            height: auto;
+        }
+
+        .info h2, .info p {
+            color: white;
+        }
+
+        .social-buttons {
+            margin-top: 20px;
+        }
+
+        .social-button {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: black 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .social-button:hover {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_5TRS3mJQV3a0e3GpuaIp3F785lAhCpDPQ&usqp=CAU"alt="background">
+    </div>
+    <div class="info">
+        <h2><strong>About Me</strong></h2>
+        <p>Perkenalkan Saya Thimothy Reymar Pongantung saya seorang Mahasiswa Di Universitas Klabat (UNKLAB) saya seorang mahasiswa jurusan informatika Semester 3 saat ini saya sedang mengambil Matakuliah Web Desing.</p>
+        <h2><strong>My Contact</strong></h2>
+        <div class="social-buttons">
+            <a class="social-button" href="https://www.instagram.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt="Instagram" width="30">
+            </a>
+            <a class="social-button" href="https://www.whatsapp.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/897px-WhatsApp.svg.png" alt="WhatsApp" width="30">
+			<a class="social-button" href="https://www.facebook.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/330px-2021_Facebook_icon.svg.png" alt="WhatsApp" width="30">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
